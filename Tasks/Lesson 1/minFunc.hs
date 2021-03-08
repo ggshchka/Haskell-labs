@@ -11,3 +11,9 @@ minFunc (x:y:xs)
     
 main = print(minFunc [10, 2, 5, -1, 99])
 
+
+{-
+res: 
+-1
+-}
+

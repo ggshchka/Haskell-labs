@@ -10,4 +10,9 @@ gcd' x y = gcd' b (mod a b)
           b = abs y
 
 
-main = print(gcd' 2 0)
+main = print(gcd' 522 342)
+
+{-
+res: 
+18
+-}

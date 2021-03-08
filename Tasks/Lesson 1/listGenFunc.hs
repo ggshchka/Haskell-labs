@@ -9,3 +9,8 @@ genList :: Int -> [Int]
 genList n = [x+y | x <- [1..n], y <- [1..n]]
 
 main = print(length (genList 5), genList 5)
+
+{-
+res: 
+(25,[2,3,4,5,6,3,4,5,6,7,4,5,6,7,8,5,6,7,8,9,6,7,8,9,10])
+-}
