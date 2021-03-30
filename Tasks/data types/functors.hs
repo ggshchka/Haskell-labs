@@ -26,7 +26,6 @@ instance Functor (Fun a) where
 
 instance Applicative (Fun a) where
     pure a = Fun(\x -> a)
-
     (Fun a) <*> ab = Fun(\x -> a x ((getFun ab) x))
 
 {-
